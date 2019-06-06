@@ -1,0 +1,48 @@
+.tweet {
+  padding: 20px 20px 0;
+  margin: 20px 0 0;
+  border-top: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #a0a0a0 !important;
+  border-radius: 12px;
+}
+
+.tweet:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border: 0;
+}
+
+.tweet p {
+  margin: 15px 0;
+  line-height: 20px;
+  font-size: 1.5em !important;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none !important;
+}
+
+.tweet div img{
+  margin: 1% 0;
+  border-radius: 20px;
+  /* width: 170px;
+  height: 220px; */
+}
+
+.tweet button {
+  border: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  color: #697882;
+  cursor: pointer;
+  outline: none;
+}
+
+.tweet button img {
+  margin-right: 5px;
+}
+
+.tweet button:hover {
+  opacity: 0.7;
+}
